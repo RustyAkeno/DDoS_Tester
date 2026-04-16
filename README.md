@@ -9,4 +9,4 @@
  сводку по скорости и ошибкам,
  отключение проверки SSL при необходимости.
 # Установка
-pip install aiohttp
+     pip install aiohttp
