@@ -19,22 +19,22 @@
      python async_stress.py --url https://your-server.com/ --method GET --concurrency 1000 --duration 60
 
 
-▎POST с JSON
+# POST с JSON
 
-python async_stress.py --url https://your-server.com/api --method POST --json --payload-size 2048 --concurrency 800 --duration 60
-
-
-▎POST с отключением проверки сертификата
-
-python async_stress.py --url https://your-server.com/api --method POST --text --insecure --concurrency 1000 --duration 60
+      python async_stress.py --url https://your-server.com/api --method POST --json --payload-size 2048 --concurrency 800 --duration 60
 
 
-▎С лимитом в 5000 RPS
+# POST с отключением проверки сертификата
 
-python async_stress.py --url https://your-server.com/api --method POST --json --concurrency 2000 --rps 5000 --duration 60
+       python async_stress.py --url https://your-server.com/api --method POST --text --insecure --concurrency 1000 --duration 60
 
 
-▎Важные советы для тысяч RPS
+# С лимитом в 5000 RPS
+
+       python async_stress.py --url https://your-server.com/api --method POST --json --concurrency 2000 --rps 5000 --duration 60
+
+
+# Важные советы для тысяч RPS
 
 • увеличь ulimit -n
 
